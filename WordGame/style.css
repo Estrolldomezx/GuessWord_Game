@@ -1,0 +1,49 @@
+#header{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+body {
+    width: 100%;
+    height: auto;
+    font-family: 'Mali', cursive;
+    background-color: #CCFFFF;
+    text-align: center;
+    display: block;
+    object-fit: cover;
+}
+#hangmanPic{
+    max-width: 100%;
+    height: auto;
+    width: 35vw;
+    background-color: transparent;
+}
+/* .img-center{
+} */
+
+#pic2{
+    width: 35%;
+    background-color: #17A2B8;
+    align-items: center;
+}
+#pic{
+    width: 35%;
+    /* background-color: transparent; */
+    background-color: #17A2B8;
+    align-items: center;
+}
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.btn-info{
+    width: 26vw;
+    height: 6vh;
+    font-size: 1.1rem;
+}
+.float-right{
+    justify-content: flex-end;
+}
