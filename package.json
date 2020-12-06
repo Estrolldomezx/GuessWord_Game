@@ -4,7 +4,10 @@
   "description": "npm init, npm install express //express js, npm install open , npm i express -S //nodemon",
   "main": "server.js",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0",
     "open": "^7.3.0"
   },
   "devDependencies": {},

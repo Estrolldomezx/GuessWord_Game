@@ -1,17 +1,47 @@
+/* 
+npm init,
+npm install express //express js,
+npm install open,
+npm i express -S //nodemon,
+npm install jquery,
+npm install jsdom,
+npm install dotenv // maybe to use
+*/
 var express = require('express');
 var app = express();
 const port = 9000
+var $ = require("jquery");
+// var load_data = require('./data.json');
+
+function load_data(){
+    $.getJSON('data.json', function (json){
+        var array = [];
+            for(var key in json){
+                var word = json[key];
+                array.push({
+                    id: word.id,
+                    name: word.name,
+                    src: word.src
+                })
+            }
+    })
+}
 
 
-/*test json*/
-app.get('/alphabets', (req, res) => {
-    res.json(alphabets)
+
+
+/*get json*/
+app.get('/data', (req, res) => {
+    res.json(word) // how to use that array
 })
 
-app.get('/vowels', (req, res) => {
-    res.json(vowels)
+app.get('/data/:name', (req, res) => {
+    const { id } = req.params
+    const result = load_data./** */
+    res.json(result)
 })
 
+/*get json*/
 
 app.use(function(req, res, next) {
 	res.set("Access-Control-Allow-Methods","POST, GET, DELETE, PUT");
