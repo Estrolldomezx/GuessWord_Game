@@ -1,7 +1,7 @@
 {
   "name": "5_12_2020",
   "version": "1.0.0",
-  "description": "",
+  "description": "npm init, npm install express //express js, npm install open , npm i express -S //nodemon",
   "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",

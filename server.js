@@ -2,6 +2,17 @@ var express = require('express');
 var app = express();
 const port = 9000
 
+
+/*test json*/
+app.get('/alphabets', (req, res) => {
+    res.json(alphabets)
+})
+
+app.get('/vowels', (req, res) => {
+    res.json(vowels)
+})
+
+
 app.use(function(req, res, next) {
 	res.set("Access-Control-Allow-Methods","POST, GET, DELETE, PUT");
 	res.set('Access-Control-Allow-Origin', '*');
