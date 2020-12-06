@@ -1,0 +1,101 @@
+{
+    "name":"word",
+    "children": [
+        {
+            "alphabets": [
+                {
+                    "id": "01",
+                    "name": "ก",
+                    "src": "WordGame/img/255/ก.PNG"
+                },
+                {
+                    "id": "02",
+                    "name": "ข",
+                    "src": "WordGame/img/255/ข.PNG"
+                },
+                {
+                    "id": "03",
+                    "name": "ฃ",
+                    "src": "WordGame/img/255/ฃ.PNG"
+                },
+                {
+                    "id": "04",
+                    "name": "ค",
+                    "src": "WordGame/img/255/ค.PNG"
+                },
+                {
+                    "id": "05",
+                    "name": "ฅ",
+                    "src": "WordGame/img/255/ฅ.PNG"
+                },
+                {
+                    "id": "06",
+                    "name": "ฆ",
+                    "src": "WordGame/img/255/ฆ.PNG"
+                },
+                {
+                    "id": "07",
+                    "name": "ง",
+                    "src": "WordGame/img/255/ง.PNG"
+                },
+                {
+                    "id": "08",
+                    "name": "จ",
+                    "src": "WordGame/img/255/จ.PNG"
+                }
+            ],
+            "vowels" :[
+                {
+                    "id": "01",
+                    "name": "อะ",
+                    "src": "WordGame/vowel/255/อะ.PNG"
+                },
+                {
+                    "id": "02",
+                    "name": "อา",
+                    "src": "WordGame/vowel/255/อา.PNG"
+                },
+                {
+                    "id": "03",
+                    "name": "อิ",
+                    "src": "WordGame/vowel/255/อิ.PNG"
+                },
+                {
+                    "id": "04",
+                    "name": "อี",
+                    "src": "WordGame/vowel/255/อี.PNG"
+                },
+                {
+                    "id": "05",
+                    "name": "อึ",
+                    "src": "WordGame/vowel/255/อึ.PNG"
+                },
+                {
+                    "id": "06",
+                    "name": "อือ",
+                    "src": "WordGame/vowel/255/อือ.PNG"
+                },
+                {
+                    "id": "07",
+                    "name": "อุ",
+                    "src": "WordGame/vowel/255/อุ.PNG"
+                },
+                {
+                    "id": "08",
+                    "name": "อู",
+                    "src": "WordGame/vowel/255/อู.PNG"
+                },
+                {
+                    "id": "09",
+                    "name": "เอ",
+                    "src": "WordGame/vowel/255/เอ.PNG"
+                },
+                {
+                    "id": "10",
+                    "name": "แอ",
+                    "src": "WordGame/vowel/255/แอ.PNG"
+                }
+            ]
+        }
+    ]
+}
