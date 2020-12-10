@@ -32,7 +32,7 @@ function load_data(){
 
 /*get json*/
 app.get('/data', (req, res) => {
-    res.json(word) // how to use that array
+    res.json(array) // how to use that array
 })
 
 app.get('/data/:name', (req, res) => {

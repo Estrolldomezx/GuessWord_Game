@@ -47,3 +47,27 @@ body {
 .float-right{
     justify-content: flex-end;
 }
+#body{
+    align-items: center;
+    column-count: 2;
+    column-gap: 10%;
+    column-span: inherit;
+    display: block;
+  }
+
+#drag{
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    display: block;
+}
+#drop {
+    align-items: center;
+    justify-content: flex-end;
+    width: 255px;
+    height: 255px;
+    background-color: #DAF7A6 ;
+    display: block;
+  }
